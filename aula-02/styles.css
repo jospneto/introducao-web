@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.destaque {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: orange;
+  border-radius: 8px;  /* borda arredondada */
+}
+
+.animes {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  background-color: orangered;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
