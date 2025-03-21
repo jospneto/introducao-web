@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(#AEDFF2, #F0F1F2);
+}
+
+video {
+  width: 500px;
+  height: 500px;
+}
