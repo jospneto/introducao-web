@@ -4,14 +4,14 @@ let cidade = "São Paulo";
 
 var nome2 = "Maria";
 
-function printNome(nome){
+function printNome(nome){//Função declarada
   console.log('nome', nome);
 }
 
 // printNome("João");
 // printNome(1);
 
-const printNumero = (numero) => {
+const printNumero = (numero) => {//Função anonima
   if(numero > 10 && numero < 10){
     console.log('este número está entre 10 e 20');
   } else if(!(numero === 10)){

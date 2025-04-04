@@ -1,4 +1,4 @@
-body {
+/* body {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -6,9 +6,27 @@ body {
   justify-content: center;
   height: 100vh;
   background-image: linear-gradient(#AEDFF2, #F0F1F2);
-}
+} */
 
-video {
+/* video {
   width: 500px;
   height: 500px;
+} */
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
 }
+
+.itens {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: blue;
+}
+
+
