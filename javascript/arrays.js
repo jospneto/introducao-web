@@ -33,17 +33,40 @@ const lastName = nomes.pop();
 const firstName = nomes.shift();
 const newName = nomes.unshift(lastName);
 
-console.log('indexName', lastName, firstName, newName);
-console.log('nomes', nomes);
+// console.log('indexName', lastName, firstName, newName);
+// console.log('nomes', nomes);
 
-const newArray3 = nomes.map(item => item.toLowerCase());
-console.log('nomes', nomes.forEach(item => console.log(item)));
+// const newArray3 = nomes.map(item => item.toLowerCase());
+// console.log('nomes', nomes.forEach(item => console.log(item)));
 
-console.log('newArray3', newArray3);
+// console.log('newArray3', newArray3);
 
 const newArrayNome =  ['Wacelys', 'Silva', 'Santos'];
 const newArray4 = nomes.concat(newArrayNome);
 const newArray5 = [...nomes, ...newArrayNome];
 
-console.log('newArray4', newArray4.length);
+// console.log('newArray4', newArray4.length);
+
+
+
+// const newArrayReduced = newArray4.reduce((acc, previous) => {
+//   return acc.push({key: previous, name: previous});
+// }, [{ key: 'teste', name: 'teste' }]);
+
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const newArrayReduced = numbers.reduce((acc, previous, index) => {
+  console.log('acc', acc);
+  console.log('previous', previous);
+  console.log('index', index);
+  return acc[index] = previous * 2;
+}, []);
+
+console.log('newArrayReduced', newArrayReduced);
+
+
+
+
+
 

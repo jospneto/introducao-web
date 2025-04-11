@@ -1,0 +1,25 @@
+.toggle {
+  display: none;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.toggle:active {
+  background-color: #fff;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
